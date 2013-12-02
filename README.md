@@ -11,8 +11,9 @@
 
 ## My role within the project:
 * On this project, all four of us spiked to develop the game's logic.
+* By day 1, Natalie and I developed a basic type racer
 * We had just learned about event listeners. By using the keypress event, we analyzed each typed letter and compared it to the string prompt that users were attempting to type.
-* I paired with @natatat to write WPM calculator and timer. We also developed the animations of the girl running.
+* I paired with Natalie to write WPM calculator and timer. We also developed the animations of the girl running.
 * Created with 2 weeks of Javascript knowledge, within a week.
 
 ## Release 1, MVP
@@ -26,6 +27,6 @@
 
 ## To Run Locally:
 
-1) bundle <- Type into CMD line
-2) shotgun <- Type into CMD line
-3) localhost:9393 <- Put into Chrome URL
+* bundle <- Type into CMD line
+* shotgun <- Type into CMD line
+* localhost:9393 <- Put into Chrome URL
