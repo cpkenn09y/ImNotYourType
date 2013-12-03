@@ -22,7 +22,7 @@ module Prompts
     "I was wondering if you had an extra heart mine seems to have been stolen",
     "There isn't a word in the dictionary for how good you look.",
     "Me without you is like a nerd without braces, A shoe without laces, aSentenceWithoutSpaces",
-    "Is there an airport nearby or is that just my heart taking off?",
+    "Is there an airport nearby or is that just my heart taking off?"
   ]
 
   def random

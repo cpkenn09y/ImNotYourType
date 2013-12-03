@@ -40,8 +40,9 @@ function startTyping() {
   }
 
   function girlRuns(testStrang) {
-    var incrementor = testStrang.length/30;
-    if (latestChar % Math.floor(incrementor) === 0) {
+    var incrementor = testStrang.length/30.0;
+
+    if (Math.floor(latestChar % incrementor) === 0) {
       ++nthChildCounter;
       updateGurlPosition();
     }
