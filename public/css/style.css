@@ -1,12 +1,9 @@
-#container {
-  height: auto;
-  width:100%;
-  text-align: center;
-  font-family: helvetica-light;
+html {
+  font-size: 16px;
 }
 
 body {
-  margin:0;
+  margin:0 auto;
   background-image:url('../heartbackground.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -15,18 +12,21 @@ body {
   background-size: cover;
 }
 
-h1 {
-  font-size: 100px;
+#container {
+  height: auto;
+  width:100%;
+  text-align: center;
+  font-family: helvetica-light;
 }
 
 #header {
   font-family: courier;
-  font-size: 30px;
+  font-size: 3em;
 }
 
 #text-to-type {
   position:relative;
-  font-size: 40px;
+  font-size: 2em;
   width:50%;
   margin: 0 auto;
 }
@@ -38,8 +38,8 @@ h1 {
 
 #boy {
   position:absolute;
-  padding-top: 60px;
-  padding-left:-50px;
+  padding-top: 3.75em;
+  padding-left:-3.125em;
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
@@ -51,35 +51,36 @@ h1 {
 
 #gurl-image {
   position:relative;
-  padding-top:47px;
-  padding-left:240px;
+  padding-top:3.75em;
+  padding-left:22em;
   text-align: left;
 }
 
 td {
-  width:70px;
+  width:4.375em;
 }
 
 #text-box {
   position:relative;
-  font-size: 50px;
+  font-size: 3.125em;
 }
 
 #text {
   position:relative;
-  padding-top: 50px;
+  padding-top: 3.125em;
   width:50%;
-  font-size: 40px;
+  font-size: 2em;
   margin: 0 auto;
 }
 
 #typing-zone {
   text-align: center;
-  font-size: 30px;
-  padding:5px;
+  font-size: .6em;
+  padding:.3125em;
   width:30%;
 }
 
 #timer {
-  font-size: 24px;
+  font-size: 1.5em;
+  font-weight: bold;
 }
