@@ -54,7 +54,7 @@ function startTyping() {
   }
 
   function updateGurlPosition() {
-    $("#gurl-image td:nth-child(" + nthChildCounter + ")").html('<img src="gurl.png" width="auto" height="50%">');
+    $("#gurl-image td:nth-child(" + nthChildCounter + ")").html('<img src="gurl.png" width="auto" height="35%">');
     $("#gurl-image td:nth-child(" + (nthChildCounter - 1) + ")").empty();
   }
 

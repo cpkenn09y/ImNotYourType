@@ -1,5 +1,5 @@
 html {
-  font-size: 14pt;
+  font-size: 10px;
 }
 
 body {
@@ -39,7 +39,7 @@ body {
 #boy {
   position:absolute;
   padding-top: 3.75em;
-  padding-left:-3.125em;
+  padding-left:3.125em;
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
@@ -67,7 +67,6 @@ td {
 
 #text {
   position:relative;
-  /*padding-top: 2.7em;*/
   width:50%;
   font-size: 2em;
   margin: 0 auto;
