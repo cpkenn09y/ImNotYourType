@@ -33,5 +33,6 @@
 
 ## To Update Heroku Server
 
-* git add heroku git@heroku.com:imnotyourtype.git
+* git remote add heroku git@heroku.com:imnotyourtype.git
+
 * git push heroku master:master
