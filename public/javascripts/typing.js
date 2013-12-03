@@ -1,6 +1,7 @@
 function startTyping() {
 
   bindEventListeners();
+  initializeFocusOnTextBox();
 
   var correctChars = '';
   var nthChildCounter = 0;
@@ -19,6 +20,10 @@ function startTyping() {
       renderSecondsElapsed("time-elapsed", timeInSeconds);
       renderWPM("wpm", wpm);
     }
+  }
+
+  function initializeFocusOnTextBox() {
+    $('#typing-zone').focus();
   }
 
   function isDone(testString) {
