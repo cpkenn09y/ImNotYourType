@@ -15,6 +15,9 @@ body {
   background-size: cover;
 }
 
+h1 {
+  font-size: 100px;
+}
 
 #header {
   font-family: courier;
@@ -23,8 +26,8 @@ body {
 
 #text-to-type {
   position:relative;
-  font-size: 20px;
-  width:600px;
+  font-size: 40px;
+  width:50%;
   margin: 0 auto;
 }
 
@@ -59,19 +62,24 @@ td {
 
 #text-box {
   position:relative;
-  font-size: 20px;
+  font-size: 50px;
 }
 
 #text {
   position:relative;
   padding-top: 50px;
-  width:600px;
+  width:50%;
+  font-size: 40px;
   margin: 0 auto;
 }
 
 #typing-zone {
   text-align: center;
-  font-size: 16px;
+  font-size: 30px;
   padding:5px;
-  width:500px;
+  width:30%;
+}
+
+#timer {
+  font-size: 24px;
 }
