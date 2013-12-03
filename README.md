@@ -30,3 +30,8 @@
 * bundle <- Type into CMD line
 * shotgun <- Type into CMD line
 * localhost:9393 <- Put into Chrome URL
+
+## To Update Heroku Server
+
+* git add heroku git@heroku.com:imnotyourtype.git
+* git push heroku master:master

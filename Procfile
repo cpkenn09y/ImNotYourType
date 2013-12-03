@@ -1,1 +1,1 @@
-web: bundle exec ruby type_app.rb -p $PORTgit
+web: bundle exec ruby type_app.rb -p $PORT
