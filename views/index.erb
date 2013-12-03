@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="javascripts/timer.js"></script>
+  <script src="javascripts/typing.js"></script>
+  <script src="javascripts/application.js"></script>
+</head>
+
+<body>
+<div id="container">
+  <div id="header">
+    <h1>I'm Not Your Type!</h1>
+  </div>
+  <div id="text-to-type">
+    <p id="test"><%= @prompt %></p>
+  </div>
+
+  <div id="text-box">
+    <input id="typing-zone" type="text" name="Type Box" placeholder="TYPE!">
+  </div>
+  <div id="kids">
+    <div id="boy">
+      <img src="boy.png" width="40%">
+    </div>
+    <div id="gurl-image">
+      <table class="gurl">
+        <tr>
+          <td><img src="gurl.png" width="auto" height="35%"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div id="text"></div>
+  <div id="timer">
+    <br/>
+    <span id="wpm"></span>
+    <br/>
+    <span id="time-elapsed"></span>
+    <br/>
+    <span id="accuracy"></span>
+  </div>
+</div>
+</body>
+</html>

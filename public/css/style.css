@@ -1,0 +1,85 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  margin:0 auto;
+  background-image:url('../heartbackground.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+#container {
+  height: auto;
+  width:100%;
+  text-align: center;
+  font-family: helvetica-light;
+}
+
+#header {
+  font-family: courier;
+  font-size: 3em;
+}
+
+#text-to-type {
+  position:relative;
+  font-size: 2em;
+  width:50%;
+  margin: 0 auto;
+}
+
+#kids {
+  position:relative;
+  width:100%;
+}
+
+#boy {
+  position:absolute;
+  padding-top: 3.75em;
+  padding-left:3.125em;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  z-index: 1;
+}
+
+#gurl-image {
+  position:relative;
+  padding-top:3.75em;
+  padding-left:22em;
+  text-align: left;
+}
+
+td {
+  width:4.375em;
+}
+
+#text-box {
+  position:relative;
+  font-size: 3.125em;
+}
+
+#text {
+  position:relative;
+  width:50%;
+  font-size: 2em;
+  margin: 0 auto;
+}
+
+#typing-zone {
+  text-align: center;
+  font-size: .6em;
+  padding:.3125em;
+  width:30%;
+}
+
+#timer {
+  font-size: 1.5em;
+  font-weight: bold;
+}
