@@ -1,0 +1,64 @@
+Code with Nyan
+==============
+
+## Mission Statement:
+* Code with Nyan is a web app where kids discover the wonders of programming through a friendly drawing interface. Kids use creativity and problem solving skills to explore different ways to draw. All the while, children learn valuable programming concepts such as: pattern recognition, method chaining, and looping. Go forth and code!
+
+## Links to Project:
+* [http://www.codewithnyan.com](http://www.codewithnyan.com)
+* [codewithnyan.github.io](http://nyansnakes.github.io/codewithnyan.github.io)
+
+Team Members
+------------
+* Kenneth Yu [@cpkenn09y](https://github.com/cpkenn09y)
+* Jenny Yee [@jenwen](https://github.com/jewnwen)
+* Robert Taraya [@roberttaraya](https://github.com/roberttaraya)
+
+## My Role in the Project:
+
+### (As a Team):
+* Created the idea
+* Chose core functionalities of the language
+* Chose the language to be expressive and intuitive
+* Discussed all the design elements of the project, such as: language design, teaching principles, instant feedback, user interface, and user experience.
+
+### (Pair with Robert):
+* Developed the language parser
+  * [parser.js](https://github.com/cpkenn09y/CodeWithNyan/blob/master/javascripts/parser.js) <- Link to Code
+* Enabled basic movement, such as: forward 5, backward 10, etc.
+* Enabled rotations of any degree amount, such as: rotate 720, rotate 265
+* Further developed language parser to allow for method chaining, such as: 'forward 7, rotate 30'
+* Tuned the language parser to allow for looping of chained methods, such as: '(backward 13, rotate 55) repeat 10'
+* Developed the visual representations of the sprite movements
+  * [sprite.js](https://github.com/cpkenn09y/CodeWithNyan/blob/master/javascripts/sprite.js) <- Link to Code
+  * [path.js](https://github.com/cpkenn09y/CodeWithNyan/blob/master/javascripts/path.js) <- Link to Code
+
+###(Pair with Jenny)
+* Made the canvases dynamically resize based on window size
+  * [resize_controller.js](https://github.com/cpkenn09y/CodeWithNyan/blob/master/javascripts/resize_controller.js) <- Link to Code
+* Improved overall user experience and user interface
+
+###(Solo)
+* Allow saving of images by using the Imgur API
+  * [imageuploader.js](https://github.com/cpkenn09y/CodeWithNyan/blob/master/javascripts/imageuploader.js) <- Link to Code
+* Wrote all of our Jasmine Tests; to ensure that Language Parser remains intact
+  * [parser_spec.js](https://github.com/cpkenn09y/CodeWithNyan/blob/master/spec/javascripts/parser_spec.js) <- Link to Code
+* Created a textbox that dynamically resizes based on the amount of text within the field
+* Developed feature that allows users to access past commands by using the up or down arrow
+* Enabled customization of colors and line widths
+* Enable users to clear command log from the textbox
+* Enable users to reset the canvas
+
+### Note:
+* This project was created in one week
+* Many commits were made by us under the default DBC git config of ‘Apprentice’
+* This is our updated intepretation of the classic children's game, based on the Turtle Logo Programming Language.
+
+## Working layout as of Nov 15:
+![image](http://i.imgur.com/RYtzsAd.png)
+
+## Working layout as of Nov 12:
+![image](http://i.imgur.com/GS1BvPi.png?1)
+
+## Working layout as of Nov 10:
+![image](http://i.imgur.com/CtJJw47.png)
