@@ -12,6 +12,7 @@ function startTyping() {
 
   function gameLogic(event) {
     concatenatingString(keyPressed(event.keyCode), testString);
+    highlightCorrectCharacters()
     if (isDone(testString)) {
       var timeInSeconds = (timer.endTime - timer.startTime) / 1000;
       var wpm = wordsPerMinute(timeInSeconds, testString);
@@ -20,6 +21,10 @@ function startTyping() {
       renderSecondsElapsed("time-elapsed", timeInSeconds);
       renderWPM("wpm", wpm);
     }
+  }
+
+  function highlightCorrectCharacters() {
+    $('span').eq(correctChars.length-1).addClass('highlight');
   }
 
   function initializeFocusOnTextBox() {

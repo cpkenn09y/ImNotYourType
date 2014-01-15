@@ -83,3 +83,7 @@ td {
   font-size: 1.5em;
   font-weight: bold;
 }
+
+.highlight {
+  background-color: yellow;
+}
