@@ -101,10 +101,14 @@ td {
 }
 
 .boxed-highlight {
-  background-color:yellow;
+  background-color:rgba(127,255,212,0.5);
   border: 1px solid black;
 }
 
 .highlight {
   background-color: rgba(0,0,0,0.55);
+}
+
+.hidden {
+  display:none;
 }

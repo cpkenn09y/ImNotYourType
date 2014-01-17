@@ -30,7 +30,7 @@ module Prompts
   end
 
   def wrap_each_letter(prompt)
-    prompt.split('').map {|letter| "<span>#{letter}</span>" }.join('')
+    prompt.split('').map {|letter| "<span id='letter'>#{letter}</span>" }.join('')
   end
 
 end

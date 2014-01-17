@@ -20,12 +20,13 @@ function startTyping() {
       renderAccuracy("accuracy", accuracy);
       renderSecondsElapsed("time-elapsed", timeInSeconds);
       renderWPM("wpm", wpm);
-      $('#timer').addClass('boxed-highlight')
+      highlightTimerBox()
+      removeTypingZone()
     }
   }
 
   function highlightCorrectCharacters() {
-    $('span').eq(correctChars.length-1).addClass('highlight');
+    $('span#letter').eq(correctChars.length-1).addClass('highlight');
   }
 
   function initializeFocusOnTextBox() {
@@ -79,6 +80,14 @@ function startTyping() {
     if (correctChars.length === comparisonString.length) {
       timer.end();
     }
+  }
+
+  function highlightTimerBox() {
+    $('#timer').addClass('boxed-highlight')
+  }
+
+  function removeTypingZone() {
+    $('#typing-zone').addClass('hidden')
   }
 
   // VIEWS
