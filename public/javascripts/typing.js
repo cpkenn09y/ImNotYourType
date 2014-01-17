@@ -26,7 +26,10 @@ function startTyping() {
   }
 
   function highlightCorrectCharacters() {
-    $('span#letter').eq(correctChars.length-1).addClass('highlight');
+    if (correctChars.length > 0) {
+      letterIndexToHighlight = correctChars.length-1
+      $('span#letter').eq(letterIndexToHighlight).addClass('highlight');
+    }
   }
 
   function initializeFocusOnTextBox() {
