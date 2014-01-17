@@ -21,6 +21,7 @@ function startTyping() {
       renderSecondsElapsed("time-elapsed", timeInSeconds);
       renderWPM("wpm", wpm);
       highlightTimerBox()
+      adjustPromptContainer()
       removeTypingZone()
     }
   }
@@ -87,6 +88,10 @@ function startTyping() {
 
   function highlightTimerBox() {
     $('#timer').addClass('boxed-highlight')
+  }
+
+  function adjustPromptContainer() {
+    $('#prompt-container').css('height', '20%')
   }
 
   function removeTypingZone() {

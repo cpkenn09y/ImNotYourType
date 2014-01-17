@@ -20,7 +20,7 @@ body {
 }
 
 #header {
-  font-family: courier;
+  font-family: Impact;
   font-size: 3em;
 }
 
@@ -35,7 +35,7 @@ body {
 #prompt-container {
   width: 80%;
   background-color: rgba(138,43,226,0.63);
-  height: 20%;
+  height: 20em;
   padding-top: 1%;
   margin: 0 auto;
   border-radius: 1em;
@@ -44,6 +44,7 @@ body {
 #kids {
   position:relative;
   width:100%;
+  margin-top: 5em;
 }
 
 #boy {
