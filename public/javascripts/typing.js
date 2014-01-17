@@ -20,6 +20,7 @@ function startTyping() {
       renderAccuracy("accuracy", accuracy);
       renderSecondsElapsed("time-elapsed", timeInSeconds);
       renderWPM("wpm", wpm);
+      $('#timer').addClass('boxed-highlight')
     }
   }
 

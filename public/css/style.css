@@ -27,8 +27,18 @@ body {
 #text-to-type {
   position:relative;
   font-size: 2em;
-  width:50%;
+  width:65%;
   margin: 0 auto;
+  color: whitesmoke;
+}
+
+#prompt-container {
+  width: 80%;
+  background-color: rgba(138,43,226,0.63);
+  height: 20%;
+  padding-top: 1%;
+  margin: 0 auto;
+  border-radius: 1em;
 }
 
 #kids {
@@ -70,20 +80,31 @@ td {
   width:50%;
   font-size: 2em;
   margin: 0 auto;
+  display: none;
 }
 
 #typing-zone {
   text-align: center;
-  font-size: .6em;
-  padding:.3125em;
-  width:30%;
+  font-size: .45em;
+  padding: .3125em;
+  width: 30%;
+  margin-bottom: 1em;
+  height: .45em;
 }
 
 #timer {
   font-size: 1.5em;
   font-weight: bold;
+  width:25%;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+
+.boxed-highlight {
+  background-color:yellow;
+  border: 1px solid black;
 }
 
 .highlight {
-  background-color: yellow;
+  background-color: rgba(0,0,0,0.55);
 }
