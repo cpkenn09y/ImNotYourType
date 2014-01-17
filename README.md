@@ -24,6 +24,10 @@
 * Wrote the WPM, timer, and accuracy calculators
 * Developed the animations of the girl running.
 
+### (Solo):
+* Improve front-end layout and UX
+* Update and maintain web app
+
 ### Note:
 * Created with 2 weeks of Javascript knowledge, within a week.
 
