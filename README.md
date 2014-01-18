@@ -26,6 +26,7 @@
 
 ### (Solo):
 * Improve front-end layout and UX
+* Made text be highlighted as you type
 * Update and maintain web app
 
 ### Note:
